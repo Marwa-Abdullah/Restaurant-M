@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="/style/css.css">
 </head>
 <body>
      <!-- hero section -->
-    <section>
+    <section class="section1 section">
         <header>
-            <div><img src="" alt=""></div>
+            <div><img class="logo" src="/style/images/h.JPG" alt=""></div>
             <nav>
                 <a href="">home</a>
                 <a href="">delichis food</a>
@@ -20,44 +21,67 @@
             </nav>
         </header>
         <div>
-        <h1>Welcome in STARS Restaurant</h1>
+        <h1 class="welcome">Welcome in <br> <span>STARS Restaurant</span> </h1>
         <button> reserve now</button>
         </div>
     </section>
 <!-- delichis food -->
-    <section>
-        <div>
-            <div>
-                <img src="" alt="">
-                <h2>name1</h2>
+    <section class="section">
+        <h1 class="hed"> Special Dishes </h1>
+        <div class="delichis">
+            <div class="box">
+                <img src="/style/images/00339764f69a07916fc86065adcafcad.jpg" alt="">
+                <div class="space"><h2>name1</h2>
                 <p> this is my first foood</p>
+                <p><em><b>23.7$</b></em></p></div>
             </div>
-            <div>
-                <img src="" alt="">
-                <h2>name1</h2>
+            <div class="box">
+                <img src="/style/images/082fccfb46eb7a30f356f3e0b94209ec.jpg" alt="">
+              <div class="space"> <h2>name1</h2>
                 <p> this is my first foood</p>
+                 <p><em><b>23.7$</b></em></p></div> 
             </div>
-            <div>
-                <img src="" alt="">
-                <h2>name1</h2>
+            <div class="box">
+                <img src="/style/images/0a076764dbde8a985f9c9ccdebb89369.jpg" alt="">
+                <div class="space"> <h2>name1</h2>
                 <p> this is my first foood</p>
+                 <p><em><b>23.7$</b></em></p></div>
             </div>
         </div>
     </section>
     <!-- about -->
-    <section>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quis ab qui aut, obcaecati numquam atque ipsam ut possimus molestias nobis quisquam neque quam laborum doloribus totam! Quas, sed esse.</p>
-        <img src="" alt="">
+    <section class="section">
+         <h1 class="hed"> About us </h1>
+        <div class="delichis">
+        <img class="shef" src="/style/images/12c17204844a2bcc1832671c852cd551.jpg" alt="">
+        <p class="DesShef">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quis ab qui aut, obcaecati numquam atque ipsam ut <br> possimus molestias nobis quisquam neque quam laborum doloribus totam! Quas, sed esse. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quis ab qui aut, obcaecati numquam atque ipsam ut <br> possimus molestias nobis quisquam neque quam laborum doloribus totam! Quas, sed esse.</p>
+        
+        
         </div>
-        <div><p>jgftdrdfrdfrddd</p></div>
+        <!-- <div><p>jgftdrdfrdfrddd</p></div> -->
     </section>
     <!-- menu preview -->
-    <section>
+    <section class="section">
+        <h1 class="hed">Menu Preview</h1>
         <div>
-            <div>
-                <h1>dd</h1>
-                <div>
+            <div class="col">
+                <h1>Starters</h1>
+                <div class="delichis">
+                    <img class="im1" src="/style/images/150a3b8d0cd84cecf571568e89e13e28 (1).jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt doloremque quam corporis vitae molestias, quia alias </p>
+                    <h3>77.9$</h3>
+                </div>
+                <div  class="delichis">
+                    <img  class="im1" src="/style/images/150a3b8d0cd84cecf571568e89e13e28 (1).jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt doloremque quam corporis vitae molestias, quia alias </p>
+                    <h3>77.9$</h3>
+                </div>
+               <div  class="delichis">
+                    <img  class="im1" src="/style/images/150a3b8d0cd84cecf571568e89e13e28 (1).jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt doloremque quam corporis vitae molestias, quia alias </p>
+                    <h3>77.9$</h3>
+                </div>
+                <!-- <div>
                     <img src="" alt="">
                     <p>hhhh</p>
                     <h3>77.9$</h3>
@@ -66,27 +90,12 @@
                     <img src="" alt="">
                     <p>hhhh</p>
                     <h3>77.9$</h3>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>hhhh</p>
-                    <h3>77.9$</h3>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>hhhh</p>
-                    <h3>77.9$</h3>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>hhhh</p>
-                    <h3>77.9$</h3>
-                </div>
+                </div> -->
             </div>
         </div>
-    </section>
+    </section >
     <!-- opinion -->
-    <section>
+    <section class="section">
         <div>
             <div>
                 <img src="" alt="">
@@ -106,7 +115,7 @@
         </div>
     </section>
     <!-- contact us -->
-    <section>
+    <section class="section">
         <form action="">
             <label for="">user name</label>
             <input type="text" name="" id="">
